@@ -1,31 +1,29 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "simulacra",
+  "title": "Simulacra Module",
   "description": "",
-  "version": "#{VERSION}#",
+  "version": "11.0.1",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
+    "minimum": 11,
+    "verified": 11,
     "maximum": 11
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "hometoast",
+      "url": "https://github.com/hometoast",
+      "discord": "hometoast"
     }
   ],
   "relationships": {
     "systems": [],
     "requires": []
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
+  
   "scripts": [
-    "scripts/lib/lib.js"
+    "scripts/module.js"
   ],
   "styles": [
     "styles/module.css"
@@ -37,9 +35,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "https://github.com/hometoast/",
+  "manifest": "https://raw.githubusercontent.com/hometoast/foundry-simulacra-module/master/module.json",
+  "download": "https://download",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
